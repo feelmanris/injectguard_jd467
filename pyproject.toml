@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "feelmanris-injectguard_jd467"
+version = "0.1.0"
+description = "从样本里推断提示注入防护工程师·结构化输出的约束解码应有的字段集合，逐字段检查存在性与类型，缺失项单独列出"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "feelmanris" }]
+keywords = ["analysis", "observability", "evaluation", "rag"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://feelmanris.github.io"
+Repository = "https://github.com/feelmanris/injectguard_jd467"
+Issues = "https://github.com/feelmanris/injectguard_jd467/issues"
+
+[project.scripts]
+injectguard_jd467 = "injectguard_jd467:main"
+
+[tool.setuptools]
+py-modules = ["injectguard_jd467"]
